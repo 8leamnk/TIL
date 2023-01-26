@@ -6,17 +6,17 @@ render 쪽에 삼항연산자를 사용할 때
 예를 들어,
 <code>
 {state1 ? (
-<Component1 />
+`<Component1 />`
 ) : state2 ? (
-<Component2 />
+`<Component2 />`
 ) : (
-<Component3 />
+`<Component3 />`
 )}
 </code>
 보다는
 <code>
-{state1 && <Component1 />}
-{state2 && <Component2 />}
-{!state1 && !state2 && <Component3 />}
+{state1 && `<Component1 />`}
+{state2 && `<Component2 />`}
+{!state1 && !state2 && `<Component3 />`}
 </code>
 이렇게 코드를 작성하는 것이 좋다.
