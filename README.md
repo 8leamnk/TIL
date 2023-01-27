@@ -1,3 +1,15 @@
+# 2023.01.27
+
+<code>Object.key()</code> 를 이용하여 객체가 비어있는지 확인할 수 있다.
+<code>
+const object1 = {
+a: 'somestring',
+b: 42,
+c: false
+};
+</code>
+<code>Object.key(object1).length</code> 의 값으로 객체가 비어있는지 아닌지 확인이 가능하다.
+
 # 2023.01.26
 
 render 쪽에 삼항연산자를 사용할 때
