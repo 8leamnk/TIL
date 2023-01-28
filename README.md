@@ -24,11 +24,11 @@ render 쪽에 삼항연산자를 사용할 때
 <pre>
 <code>
 {state1 ? (
-  <Component1 />
+  '컴포넌트1'
 ) : state2 ? (
-  <Component2 />
+  '컴포넌트2'
 ) : (
-  <Component3 />
+  '컴포넌트3'
 )}
 </code>
 </pre>
@@ -37,9 +37,9 @@ render 쪽에 삼항연산자를 사용할 때
 
 <pre>
 <code>
-{state1 && <Component1 />}
-{state2 && <Component2 />}
-{!state1 && !state2 && <Component3 />}
+{state1 && '컴포넌트1'}
+{state2 && '컴포넌트2'}
+{!state1 && !state2 && '컴포넌트3'}
 </code>
 </pre>
 
