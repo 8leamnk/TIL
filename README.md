@@ -1,3 +1,19 @@
+# 2023.02.01
+
+<code>splice()</code>와 <code>slice()</code>의 차이점
+
+### <code>splice()</code>
+
+1. 원본이 바뀐다.
+   splice()를 호출한 결과, 원본 example을 출력한 결과는 제거한 원소가 없어진 상태이다.
+2. return 값은 자른 원소들로 이루어진 배열이다.
+
+### <code>slice()</code>
+
+1. 원본이 바뀌지 않는다.
+   slice()를 호출한 결과, 원본 example을 출력한 결과는 그대로이다.
+2. return 값은 자른 원소들로 이루어진 배열이다.
+
 # 2023.01.27
 
 <code>Object.key()</code> 를 이용하여 객체가 비어있는지 확인할 수 있다.
